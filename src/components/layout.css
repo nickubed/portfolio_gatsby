@@ -4,7 +4,6 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -377,6 +376,8 @@ dd {
   margin-bottom: 1.45rem;
 }
 p {
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -484,7 +485,6 @@ hr {
   margin-bottom: calc(1.45rem - 1px);
   background: hsla(0, 0%, 0%, 0.2);
   border: none;
-  height: 1px;
 }
 address {
   margin-left: 0;
