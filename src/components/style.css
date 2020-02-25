@@ -2,10 +2,10 @@
     /* turns off cursor interaction, no highlight no user select */
     margin: 0 !important;
     padding: 0 !important;
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
+    -webkit-user-select: none;       
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 
@@ -49,7 +49,7 @@ svg {
     font-size: 1.3em;
     margin-bottom: 5em;
 }
-#aboutMe{
+.aboutMe{
     position: relative;
     display: inline-block;
 }
@@ -132,18 +132,27 @@ h2{
     position: absolute;
     height: 25vh;
     width: 25vw;
+    user-select: auto;
+    z-index: 10;
 }
 
 #github_logo{
     display: inline-block;
     width: 8vw;
     margin: 2vw !important;
+    user-select: auto;
 }
 
 #linkedin_logo{
     display: inline-block;
     width: 8vw;
     margin: 2vw !important;
+    user-select: auto;
+}
+
+#resume{
+    text-align: center;
+    font-size: 3.2vw;
 }
 
 @media (max-width: 400px) {
@@ -174,5 +183,8 @@ h2{
     #linkPack{
         margin-top: -30vh !important;
         margin-left: 5vw !important;
+    }
+    #resume{
+        font-size: 6vw;
     }
 }
