@@ -1,5 +1,5 @@
 import React from 'react'
-import MeetImg from './meet-out'
+import SocialImage from './social-life'
 
 const Project2 = () => {
     return (
@@ -19,7 +19,7 @@ const Project2 = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque veniam earum maxime eaque? Voluptate perspiciatis saepe obcaecati nobis voluptatum impedit eos quam eligendi ad doloribus! Quos unde neque nihil libero.
                         <br/>
                         <div className="projectContainer">
-                            <MeetImg />
+                            <SocialImage />
                         </div>
                         <br/>
                         it was created using javaScript, phaser.

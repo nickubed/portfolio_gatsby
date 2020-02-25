@@ -114,6 +114,17 @@ h2{
     width: 50vw;
 }
 
+#socialContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.socialImg{
+    display: inline-block;
+    height: 33vh;
+    margin-left: 2vw !important;
+}
+
 #linkPack{
     display: inline-block;
     margin-top: 85vh !important;
@@ -152,6 +163,13 @@ h2{
     }
     .projectImg{
         width: 100vw;
+    }
+    .smallTitle{
+        font-size: 10vw;
+    }
+    .socialImg{
+        height: 28vh;
+        width: 40vw;
     }
     #linkPack{
         margin-top: -30vh !important;
