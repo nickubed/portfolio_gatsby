@@ -1,17 +1,20 @@
 import React from 'react'
+import Links from "../components/linkIcons"
 
-const About = props => {
+const About = () => {
     return (
         <div className="container">
             <div className="row row-cols-2">
-                <div className="col-0 col-md-6"></div>
-                <div className="col-12 col-md-6">
+                <div className="col-0 col-md-6 col-lg-6"></div>
+                <div className="col-12 col-md-6 col-lg-6">
                     <h2 className="subhead">I am</h2>
                 </div>
             </div>
             <div className="row row-cols-2">
-                <div className="col-0 col-md-7"></div>
-                <div className="col-12 col-md-5">
+                <div className="col-0 col-md-7 col-lg-7">
+                    
+                </div>
+                <div className="col-12 col-md-5 col-lg-5">
                     <br/>
                     <div id="about"><p>a software engineer and ex-fabricator with a passion for writing
                         scalable solutions in JavaScript, TypeScript, and SQL.</p></div>

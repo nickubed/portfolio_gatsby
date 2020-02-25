@@ -1,11 +1,14 @@
 import React from "react"
-import { Link } from "gatsby"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import About from '../components/about'
 import Layout from "../components/layout"
+import Links from '../components/linkIcons'
 import Image from '../components/image'
-import Project from '../components/project'
+import Project1 from '../components/project_1'
+import Project2 from '../components/project_2'
 import SEO from "../components/seo"
+
 
 const IndexPage = () => (
   <Layout>
@@ -23,6 +26,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <Image />
+          <Links />
         </div>
       </div>
       <br/>
@@ -31,7 +35,8 @@ const IndexPage = () => (
       <div id="color2" />
     </div>
     <About />
-    <Project />
+    <Project1 />
+    <Project2 />
   </Layout>
 )
 
