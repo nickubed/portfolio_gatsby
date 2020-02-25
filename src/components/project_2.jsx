@@ -1,5 +1,6 @@
 import React from 'react'
 import SocialImage from './social-life'
+import LangIcons from '../components/iconPack'
 
 const Project2 = () => {
     return (
@@ -8,10 +9,13 @@ const Project2 = () => {
                 <div className="col-0 col-md-6"></div>
                 <div className="col-12 col-md-6">
                     <h2 className="subhead"></h2>
+                    
                 </div>
             </div>
             <div className="row row-cols-2">
-                <div className="col-0 col-md-7"></div>
+                <div className="col-0 col-md-7">
+                    <LangIcons />
+                </div>
                 <div className="col-12 col-md-5">
                     <br/>
                     <div id="about"><p className="smallTitle">social life simulator</p>

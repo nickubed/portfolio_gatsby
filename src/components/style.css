@@ -6,6 +6,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    /* border: 1px solid black; */
 }
 
 
@@ -153,6 +154,16 @@ h2{
 #resume{
     text-align: center;
     font-size: 3.2vw;
+}
+
+.icons{
+    display: flex;
+    justify-content: left;
+    margin: 2vw !important;
+}
+
+.icon{
+    display: flex;
 }
 
 @media (max-width: 400px) {
