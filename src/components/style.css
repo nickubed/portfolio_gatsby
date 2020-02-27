@@ -103,6 +103,7 @@ h2{
 }
 
 .smallTitle{
+    margin-top: 2vh !important;
     font-size: 3.2vw;
 }
 .projectContainer{
