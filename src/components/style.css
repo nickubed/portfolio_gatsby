@@ -156,14 +156,17 @@ h2{
     font-size: 3.2vw;
 }
 
-.icons{
-    display: flex;
-    justify-content: left;
-    margin: 2vw !important;
+#iconPack{
+    margin-top: 120vh !important;
+    margin-left: 3.2vw !important;
+    display: inline-block;
+    position: absolute;
 }
 
 .icon{
-    display: flex;
+    display: inline-block;
+    margin-left: 1vw !important;
+    width: 5vw;
 }
 
 @media (max-width: 400px) {
@@ -194,6 +197,13 @@ h2{
     #linkPack{
         margin-top: -30vh !important;
         margin-left: 5vw !important;
+    }
+    #iconPack{
+        margin-top: 7.5vh !important;
+        margin-left: 54vw !important;
+    }
+    .icon{
+        width: 7vw;
     }
     #resume{
         font-size: 6vw;

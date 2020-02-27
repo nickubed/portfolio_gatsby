@@ -2,11 +2,13 @@ import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import About from '../components/about'
+import LangIcons from '../components/iconPack'
 import Layout from "../components/layout"
 import Links from '../components/linkIcons'
 import Image from '../components/image'
 import Project1 from '../components/project_1'
 import Project2 from '../components/project_2'
+import Project3 from '../components/project_3'
 import SEO from "../components/seo"
 
 
@@ -27,6 +29,7 @@ const IndexPage = () => (
         <div className="row">
           <Image />
           <Links />
+          <LangIcons />
         </div>
       </div>
       <br/>
@@ -37,6 +40,7 @@ const IndexPage = () => (
     <About />
     <Project1 />
     <Project2 />
+    <Project3 />
   </Layout>
 )
 

@@ -2,7 +2,7 @@ import React from 'react'
 import SocialImage from './social-life'
 
 
-const Project2 = () => {
+const Project3 = () => {
     return (
         <div className="container">
             <div className="row row-cols-2">
@@ -18,7 +18,7 @@ const Project2 = () => {
                 </div>
                 <div className="col-12 col-md-5">
                     <br/>
-                    <div id="about"><p className="smallTitle">social life simulator</p>
+                    <div id="about"><p className="smallTitle">busker street</p>
                     <hr/>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque veniam earum maxime eaque? Voluptate perspiciatis saepe obcaecati nobis voluptatum impedit eos quam eligendi ad doloribus! Quos unde neque nihil libero.
                         <br/>
@@ -26,7 +26,7 @@ const Project2 = () => {
                             <SocialImage />
                         </div>
                         <br/>
-                        it was created using javaScript, phaser.
+                        it was created using javaScript, .
                     </p>
                     </div>
                 </div>
@@ -35,4 +35,4 @@ const Project2 = () => {
     )
 }
 
-export default Project2
+export default Project3
