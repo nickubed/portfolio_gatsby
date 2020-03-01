@@ -1,5 +1,5 @@
 import React from "react"
-import orange from "../images/orange_self_face.jpg"
+import orange from "http://www.nickquandt.com/images/orange_self_face.jpg"
 
 
 const Image = () => {
