@@ -20,7 +20,9 @@ const Project2 = () => {
                     <br/>
                     <div id="about"><p className="smallTitle">social life simulator</p>
                     <hr/>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque veniam earum maxime eaque? Voluptate perspiciatis saepe obcaecati nobis voluptatum impedit eos quam eligendi ad doloribus! Quos unde neque nihil libero.
+                    <p>users control an emoji capable of moving in 2 dimensions along one axis, and attempt
+                        to catch other emoji falling along a perpindicular axis, accumulating points and
+                        increasing complexity as the game progresses.
                         <br/>
                         <div className="projectContainer">
                             <SocialImage />
