@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/portfolio_gatsby",
+  pathPrefix: "",
   siteMetadata: {
     title: `Nick Quandt`,
     description: ``,
