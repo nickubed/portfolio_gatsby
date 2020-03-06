@@ -16,7 +16,7 @@ const Project1 = () => {
                     <br/>
                     <div id="about"><p className="smallTitle">meet-out</p>
                     <hr/>
-                    <p>meet-out is a scheduling and social media-themed app created to encourage individuals
+                    <p className="projectContent">meet-out is a scheduling and social media-themed app created to encourage individuals
                         to gather outside and perform their favorite outdoor-activities together.
                         <br/>
                         <div className="projectContainer">

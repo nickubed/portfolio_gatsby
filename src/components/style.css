@@ -54,7 +54,11 @@ svg {
     position: relative;
     display: inline-block;
 }
-
+#aboutContent{
+    /* margin-top: 6vh !important; */
+    line-height: 6.2vh;
+    color: hsla(0, 0%, 0%, 0.35);
+}
 #color1{
     /* top color bar --stretch functionality: changes based on weather */
     display: flex;
@@ -105,12 +109,18 @@ h2{
 .smallTitle{
     margin-top: 2vh !important;
     font-size: 3.2vw;
+    /* color: hsla(0, 0%, 0%, 0.2); */
 }
 .projectContainer{
     border-left: 1px solid #e6e6e6;
     border-bottom: 4px solid #e6e6e6;
     border-radius: 8px;
     padding: 25px !important;
+}
+.projectContent{
+    margin-top: 6vh !important;
+    line-height: 6.2vh;
+    color: hsla(0, 0%, 0%, 0.35);
 }
 .projectImg{
     width: 50vw;
@@ -169,6 +179,7 @@ h2{
     margin-left: 1vw !important;
     width: 5vw;
 }
+
 
 @media (max-width: 400px) {
     /* Handler for mobile media, changes "about" section to occupy full page width */
