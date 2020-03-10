@@ -1,7 +1,7 @@
 import React from 'react'
 import github from '../images/github_logo.png'
 import linkedIn from '../images/linkedIn_logo.png'
-import resume from '../resume_march_2020.pdf'
+import resume from '../NickQuandt_Resume.pdf'
 
 const Links = () => {
     return (
