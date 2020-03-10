@@ -16,8 +16,8 @@ const About = () => {
                 </div>
                 <div className="col-12 col-md-5 col-lg-5">
                     <br/>
-                    <div id="about"><p id="aboutContent">a software engineer and ex-fabricator with a passion for writing
-                        scalable solutions in JavaScript, TypeScript, and SQL.</p></div>
+                    <div id="about"><p id="aboutContent">a software engineer and ex-fabricator with a passion for collaborating
+                    with clients and designers, and writing scalable solutions in JavaScript, TypeScript, and Python.</p></div>
                 </div>
             </div>
         </div>
