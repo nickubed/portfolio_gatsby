@@ -22,25 +22,23 @@ const IndexPage = () => (
         </svg>
         <p id="human">( human. )</p>
       </div>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-    </div>
     <div className="aboutMe">
-      <div className="container">
         <div className="row">
           <Image />
           <Links />
           <LangIcons />
         </div>
-      </div>
       <br/>
       <br/>
       <div id="color1" />
       <div id="color2" />
     </div>
-    <About />
-    <Project1 />
-    <Project2 />
-    <Project3 />
+    <div id="right">
+      <About />
+      <Project1 />
+      <Project2 />
+      <Project3 />
+    </div>
   </Layout>
 )
 
