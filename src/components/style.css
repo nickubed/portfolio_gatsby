@@ -37,6 +37,9 @@ svg {
     width: 100%;
     margin: 0;
 }
+.container{
+    display: inline-block;
+}
 
 #myName {
     /* container for entire name */
@@ -89,6 +92,12 @@ svg {
     display: inline-block;
     text-align: right;
     width: 55vw;
+}
+
+#aboutContainer {
+    float: right;
+    text-align: right;
+    width: 15vw;
 }
 
 .subhead {
@@ -186,6 +195,9 @@ h2{
     #about{
         width: 100vw;
         font-size: 1.6em;
+    }
+    #aboutContainer{
+        width: 100vw;
     }
     #profile_photo{
         position: absolute;
