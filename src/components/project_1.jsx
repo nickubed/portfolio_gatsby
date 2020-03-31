@@ -5,7 +5,8 @@ const Project1 = () => {
     return (
         <div className="container">
             <br/>
-            <div id="about"><p className="smallTitle">meet-out</p>
+            <div id="about">
+            <p className="subhead">meet-out</p>
             <hr/>
                 <p className="projectContent">meet-out is a scheduling and social media-themed app created to encourage individuals
                     to gather outside and perform their favorite outdoor-activities together.

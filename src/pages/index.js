@@ -22,6 +22,7 @@ const IndexPage = () => (
         </svg>
         <p id="human">( human. )</p>
       </div>
+    <div id="left">
     <div className="aboutMe">
         <div className="row">
           <Image />
@@ -32,6 +33,7 @@ const IndexPage = () => (
       <br/>
       <div id="color1" />
       <div id="color2" />
+    </div>
     </div>
     <div id="right">
       <About />

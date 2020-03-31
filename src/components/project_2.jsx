@@ -6,7 +6,7 @@ const Project2 = () => {
     return (
         <div className="container">
             <br/>
-            <div id="about"><p className="smallTitle">social life simulator</p>
+            <div id="about"><p className="subhead">social life simulator</p>
             <hr/>
                 <p className="projectContent">users control an emoji capable of moving in 2 dimensions along one axis, and attempt
                     to catch other emoji falling along a perpendicular axis, accumulating points and
